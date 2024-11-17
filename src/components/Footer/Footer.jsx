@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <div>
+        <div className="min-h-screen">
             <p className="text-center font-medium"><small>Thank You for visiting our website</small></p>
         </div>
     )
