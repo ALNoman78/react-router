@@ -1,6 +1,3 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-
 const About = () => {
     return (
         <div className='text-center font-medium text-lg mt-12'>

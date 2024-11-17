@@ -1,17 +1,13 @@
 import { Outlet } from 'react-router-dom'
 import Navbar from '../Header/Navbar'
+import Footer from '../Footer/Footer'
 
 const Home = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <Outlet>
-
-            </Outlet>
-            <div className='text-center font-medium mt-12'>
-                <h2 className='font-bold text-2xl'>Home page</h2>
-                <p>This is Home page like parent element of the website</p>
-            </div>
+            <Outlet></Outlet>
+            <Footer></Footer>
         </div>
     )
 }
