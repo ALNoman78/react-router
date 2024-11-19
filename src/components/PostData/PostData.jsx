@@ -8,7 +8,7 @@ const PostData = ({ data }) => {
         <div className='border border-blue-400 rounded-xl p-5 m-4'>
 
             <h2>Title : {title}</h2>
-            <p className='w-[20rem] mx-auto'><small>Comment : {body}</small></p>
+            <p className='w-[20rem] mx-auto font-me'><small>Comment : {body}</small></p>
             <Link to={`/post/${id}`} >
                 <button className='btn btn-success text-white'> Show Details</button>
             </Link>
