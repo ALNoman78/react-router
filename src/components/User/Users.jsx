@@ -3,7 +3,6 @@ import NewUser from "../NewUser/NewUser"
 
 const Users = () => {
     const user = useLoaderData()
-    console.log(user)
     return (
         <div className="text-center  mt-12" >
             <h2 className="font-medium text-2xl">Our users : {user.length}</h2>
