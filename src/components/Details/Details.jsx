@@ -3,7 +3,7 @@ import { useLoaderData } from 'react-router-dom'
 
 const Details = () => {
     const postData = useLoaderData();
-    console.log(postData)
+    // console.log(postData)
     const { title, body } = postData
     return (
         <div className='text-center border border-red-400 rounded-xl p-4 m-4'>
