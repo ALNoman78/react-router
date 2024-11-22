@@ -15,6 +15,7 @@ import Posts from './components/Post/Posts.jsx';
 import Details from './components/Details/Details.jsx';
 import Comments from './components/Comments/Comments.jsx';
 import SingleComments from './SingleComments/SingleComments.jsx';
+import ErrorPage from './components/ErrorPage/ErrorPage.jsx';
 
 const router = createBrowserRouter([
   // {
@@ -32,6 +33,7 @@ const router = createBrowserRouter([
   {
     path : '/',
     element : <Home></Home>,
+    errorElement : <ErrorPage></ErrorPage>,
     children : [
       {
         path : '/about',
