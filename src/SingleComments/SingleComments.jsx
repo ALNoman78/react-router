@@ -1,13 +1,13 @@
-import { useLoaderData, useNavigate } from 'react-router-dom'
+import { useLoaderData, useNavigate, useParams } from 'react-router-dom'
 
 const SingleComments = () => {
     const data = useLoaderData()
     const navigate = useNavigate()
-
+    const { commentId } = useParams()
     const handleBack = () => {
         navigate(-1)
     }
-
+    console.log(commentId)
     const { id, body } = data
     return (
         <div className='w-[30rem] mx-auto border border-yellow-300 rounded-xl p-4'>

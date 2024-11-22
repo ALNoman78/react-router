@@ -18,18 +18,6 @@ import SingleComments from './SingleComments/SingleComments.jsx';
 import ErrorPage from './components/ErrorPage/ErrorPage.jsx';
 
 const router = createBrowserRouter([
-  // {
-  //   path : '/',
-  //   element : <div className='text-center text-3xl font-bold'>Hello form react router</div>,
-  // },
-  // {
-  //   path : '/about',
-  //   element : <div className='text-center text-5xl font-bold'>I am in the about page</div>
-  // },
-  // {
-  //   path : '/router',
-  //   element : <div className='text-center text-4xl font-bold'>This is Router element</div>
-  // },
   {
     path : '/',
     element : <Home></Home>,

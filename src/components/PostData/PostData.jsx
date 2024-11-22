@@ -2,7 +2,6 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
 const PostData = ({ data }) => {
-    console.log(data)
     const { id, title, body } = data
     return (
         <div className='border border-blue-400 rounded-xl p-5 m-4'>

@@ -1,16 +1,17 @@
-import { Link } from "react-router-dom"
+import { Link, NavLink } from "react-router-dom"
+import './Navbar.css'
 
 const Navbar = () => {
     return (
         <div className="text-center ">
             <nav className="flex justify-center items-center gap-6 text-xl font-semibold my-5">
-                <Link to="/" className="btn btn-neutral">Home</Link>
-                <Link to = '/about' className="btn btn-neutral">About</Link>
-                <Link to = '/contact' className="btn btn-neutral">Contact Us</Link>
-                <Link to = '/portfolio' className="btn btn-neutral">Portfolio</Link>
-                <Link to = '/users' className="btn btn-neutral">Users</Link>
-                <Link to = '/post' className="btn btn-neutral">Post</Link>
-                <Link to = '/comments' className="btn btn-neutral">Comments</Link>
+                <NavLink className="btn btn-neutral" to= '/'>Home</NavLink>
+                <NavLink className="btn btn-neutral" to= '/about'>About</NavLink>
+                <NavLink className="btn btn-neutral" to= '/contact'>Contact Us</NavLink>
+                <NavLink className="btn btn-neutral" to= '/portfolio'>Portfolio</NavLink>
+                <NavLink className="btn btn-neutral" to= '/users'>Users</NavLink>
+                <NavLink className="btn btn-neutral" to= '/post'>Post</NavLink>
+                <NavLink className="btn btn-neutral" to= '/comments'>Comments</NavLink>
             </nav>
         </div>
     )
